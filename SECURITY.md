@@ -1,21 +1,4 @@
 # Security Policy
 
 ## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+📱 App & Account SecurityIf you are using a "Gift Hub" app (such as the one used for TikTok rewards, JazzCash, or general gift management):Use Biometrics: Enable fingerprint or face recognition in the app settings to prevent unauthorised access.Strong Passwords: Use a unique password and avoid reusing it across other South African apps or services.Verify Links: Only download the app from official sources like the Google Play Store or Apple App Store.Transaction Alerts: If the app is linked to a payment method (like JazzCash), ensure SMS or email alerts are active for every transaction.Physical Security at Phola LoungeFor those visiting Phola Lounge (Richards Bay or Durban) for events like the Day Club x Phola:Safe Space: Phola Lounge prides itself on being an inclusive and safe environment, particularly for the LGBTQ+ community.Event Access: Ensure you purchase tickets only through verified platforms like Webtickets or Architects of Groove to avoid ticket fraud.Personal Safety: As with any popular venue, keep an eye on your drinks and personal belongings, especially during busy "vibe" nights.⚖️ Data PrivacyWhen using South African gifting apps, you are protected by the POPIA (Protection of Personal Information Act).Data Sharing: Check the app’s "Data Safety" section to see if they share your info with third parties.Redemption Security: For gift cards or vouchers, never share your redemption code with anyone except at the point of sale.
