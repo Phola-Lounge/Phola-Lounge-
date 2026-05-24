@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Time Zones | Phola Lounge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⏰ Digital Clock</h1>
+            <p>Real-time display across multiple time zones worldwide</p>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="formatToggle" class="format-toggle-wrapper">
+                    <input type="checkbox" id="formatToggle" checked>
+                    <span>24-Hour Format</span>
+                </label>
+            </div>
+            <button id="addTimeZoneBtn" class="btn">+ Add Time Zone</button>
+        </div>
+
+        <div class="primary-clock">
+            <h2>🇿🇦 South Africa (Primary)</h2>
+            <div id="primaryTime" class="time">00:00:00</div>
+            <div id="primaryDate" class="date">Mon, Jan 01, 2024</div>
+        </div>
+
+        <div id="clocksContainer" class="clocks-grid"></div>
+    </div>
+
+    <!-- Modal for selecting time zones -->
+    <div id="timeZoneModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Select Time Zone</h2>
+                <button id="closeModal" class="close-btn">&times;</button>
+            </div>
+            <input 
+                type="text" 
+                id="timeZoneSearch" 
+                placeholder="Search time zones... (e.g., Tokyo, London, New York)"
+                autocomplete="off"
+            >
+            <div id="timeZoneList" class="timezone-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
